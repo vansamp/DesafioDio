@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sobre a Clínica</title>
+    </head>
+    <body>
+        <header>
+            <img src="clinica-medica-sobre.jpg" alt="Logo da Clínica Médica">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="sobre.html">Sobre a Clínica</a></li>
+                <li><a href="horario.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <main>
+            <p>Fundada em 1965, a Clínica Médica é uma clínica de assistência médica com foco na saúde e bem-estar de seus pacientes. Nossos serviços médicos abrangem consultas, exames, tratamentos, cirurgias e cuidados pré e pós-operatórios. Nossos profissionais são especializados em diversos campos da medicina, incluindo cardiologia, endocrinologia, oftalmologia, neurologia, ortopedia, ginecologia e muito mais.</p>
+        </main>
+        <footer>
+            <p>© 2020 Clínica Médica. Todos os direitos reservados.</p>
+        </footer>
+    </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Horário de Atendimento</title>
+    </head>
+    <title>Horário de Atendimento</title>
+</head>
+<body>
+    <header>
+        <img src="clinica-medica-horario.jpg" alt="Logo da Clínica Médica">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Principal</a></li>
+            <li><a href="sobre.html">Sobre a Clínica</a></li>
+            <li><a href="horario.html">Horário de Atendimento</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Horário de Atendimento</h1>
+        <table>
+            <tr>
+                <th>Dias</th>
+                <th>Horário</th>
+            </tr>
+            <tr>
+                <td>Segunda a Sexta</td>
+                <td>08h00 às 18h00</td>
+            </tr>
+            <tr>
+                <td>Sábado e Domingo</td>
+                <td>09h00 às 13h00</td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <p>© 2020 Clínica Médica. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contato 00 0000 0000</title>
+    </head>
+    <body>
+        <header>
+            <img src="clinica-medica-contato.jpg" alt="Logo da Clínica Médica">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="sobre.html">Sobre a Clínica</a></li>
+                <li><a href="horario.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Contato</h1>
+            <form action="enviar.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                <label for="assunto">Assunto:</label>
+                <input type="text" name="assunto" id="assunto" placeholder="Digite o assunto">
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" rows="5" placeholder="Digite a mensagem"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </main>
+        <footer>
+            <p>© 2020 Clínica Médica. Todos os direitos reservados.</p>
+        </footer>
+    </body>
+</html>
